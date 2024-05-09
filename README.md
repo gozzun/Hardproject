@@ -3,13 +3,15 @@ Django DRF를 이용하여 스파르타 뉴스 구현
 -레퍼런스: GeekNews  
 ---  
 <ERD>  
-- Accounts,Comments: One-to-Many(1:N)  
-- Accounts,Comment_like_users: Many-to-Many(M:N)  
-- Accounts,News: One-to-Many(1:N)  
-- Accounts,News_like_users: Many-to-Many(M:N)  
-- News,Comments: One-to-Many(1:N)  
-- News,News_like_users: Many-to-Many(M:N)  
-- Comments,Comment_like_users: Many-to-Many(M:N)  
+1. Accounts,Comments: One-to-Many(1:N)  
+2. Accounts,Comment_like_users: Many-to-Many(M:N)  
+3. Accounts,News: One-to-Many(1:N)  
+4. Accounts,News_like_users: Many-to-Many(M:N)  
+5. News,Comments: One-to-Many(1:N)  
+6. News,News_like_users: Many-to-Many(M:N)  
+7. Comments,Comment_like_users: Many-to-Many(M:N)  
+
+
 
 ---  
 <API 목록>  
