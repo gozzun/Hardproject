@@ -3,6 +3,8 @@ Django DRF를 이용하여 스파르타 뉴스 구현
 -레퍼런스: GeekNews  
 ---  
 <ERD>  
+
+   
 1. Accounts,Comments: One-to-Many(1:N)  
 
    
