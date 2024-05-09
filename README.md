@@ -1,7 +1,9 @@
 <프로젝트 설명>  
 Django DRF를 이용하여 스파르타 뉴스 구현  
-##-레퍼런스: GeekNews  
+(레퍼런스: GeekNews)
 ---  
+
+
 <ERD>  
 
    
