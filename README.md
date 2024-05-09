@@ -14,7 +14,7 @@ Django DRF를 이용하여 스파르타 뉴스 구현
 <API 목록>  
 - 앱: accounts, news  
    
-- <accounts 앱>  
+<accounts 앱>  
 - End point: /api/accounts → 회원가입(POST)  
 - End point: /api/accounts/login → 로그인(POST)  
 - End point: /api/accounts/logout → 로그아웃(POST, 블랙리스트)  
@@ -22,7 +22,7 @@ Django DRF를 이용하여 스파르타 뉴스 구현
 - End point: /api/accounts/<str:username>/my → 내가 작성한 뉴스/댓글 불러오기(GET)  
 - End point: /api/accounts/<str:username>/like → 좋아요 누른 뉴스/댓글 불러오기(GET)  
   
-- <news 앱>  
+<news 앱>  
 - End point: /api/news → 뉴스 리스트 가져오기(GET), 뉴스 작성하기(POST)  
 - End point: /api/news/<int:newsId> → 뉴스 디테일 페이지(GET), 뉴스 삭제(DELETE), 뉴스 수정(PUT)  
 - End point: /api/news/<int:newsId>/like → 뉴스 좋아요(POST), 뉴스 좋아요 삭제(DELETE)  
