@@ -3,13 +3,13 @@ Django DRF를 이용하여 스파르타 뉴스 구현
 -레퍼런스: GeekNews  
   
 <ERD>  
-Accounts - Comments: 1:N  
-Accounts - Comment_like_users: M:N  
-Accounts - News: 1:N  
-Accounts - News_like_users: M:N  
-News - Comments: 1:N  
-News - News_like_users: M:N  
-Comments - Comment_like_users: M:N  
+- Accounts - Comments: 1:N  
+- Accounts - Comment_like_users: M:N  
+- Accounts - News: 1:N  
+- Accounts - News_like_users: M:N  
+- News - Comments: 1:N  
+- News - News_like_users: M:N  
+- Comments - Comment_like_users: M:N  
   
 <API 목록>  
 - 앱: accounts, news  
