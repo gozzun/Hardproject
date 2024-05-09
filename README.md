@@ -4,7 +4,7 @@ Django DRF를 이용하여 스파르타 뉴스 구현
 ---  
 
 
-<ERD>  
+<ERD 관계>  
 
    
 1. Accounts,Comments: One-to-Many(1:N)  
